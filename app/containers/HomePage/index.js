@@ -12,13 +12,21 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import './index.css';
+import LearnPage from '../LearnPage';
 
-export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+
+export default class HomePage extends React.PureComponent {
+  // eslint-disable-line react/prefer-stateless-function
+
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <body>
+        <div className="container-fluid mt-4">
+          <h2> What type of tutor are you looking for?</h2>
+         
+        </div>
+      </body>
     );
   }
 }

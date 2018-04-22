@@ -1,0 +1,14 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+import { Route } from 'react-router-dom';
+
+import LearnPage from '../index';
+
+describe('<LearnPage />', () => {
+  it('should render some routes', () => {
+    const renderedComponent = shallow(
+      <App />
+    );
+    expect(renderedComponent.find(Route).length).not.toBe(0);
+  });
+});

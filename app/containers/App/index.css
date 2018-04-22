@@ -1,0 +1,31 @@
+body{
+    background-color: #fff5cb;
+}
+
+.orange{
+    background-color: #ffcc00
+}
+
+.navbar{
+    margin:0
+}
+
+.darkOrange{
+    color: #b39005
+}
+
+.darkGreenText{
+    color: #2a6914
+}
+
+.active{
+    font-weight: bold
+}
+
+.pt20{
+    font-size: 20pt
+}
+
+body{
+    background-color: #fff5cb;
+}
